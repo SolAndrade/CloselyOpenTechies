@@ -1,0 +1,214 @@
+  .div-4 {
+    background-color: var(--light, rgba(241, 241, 241, 0.44));
+    align-self: center;
+    display: flex;
+    margin-top: 26px;
+    width: 342px;
+    max-width: 100%;
+    flex-direction: column;
+    padding: 24px 20px 18px 14px;
+  }
+  .div-5 {
+    color: #000;
+    font-family: Inter, sans-serif;
+    font-size: 35px;
+    font-weight: 900;
+    align-self: start;
+    text-wrap: nowrap;
+  }
+  @media (max-width: 991px) {
+    .div-5 {
+      margin-left: 4px;
+      text-wrap: initial;
+    }
+  }
+  .div-6 {
+    color: rgba(0, 0, 0, 0.5);
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    align-self: start;
+    margin-top: 21px;
+    text-wrap: nowrap;
+  }
+  @media (max-width: 991px) {
+    .div-6 {
+      margin-left: 4px;
+      text-wrap: initial;
+    }
+  }
+  .div-7 {
+    align-self: start;
+    display: flex;
+    margin-top: 14px;
+    width: 100%;
+    align-items: flex-start;
+    gap: 5px;
+  }
+  .img {
+    aspect-ratio: 1;
+    object-fit: cover;
+    object-position: center;
+    width: 20px;
+    overflow: hidden;
+    align-self: stretch;
+    max-width: 100%;
+  }
+  .div-8 {
+    color: rgba(0, 0, 0, 0.5);
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    align-self: center;
+    text-wrap: nowrap;
+    flex-grow: 1;
+    flex-basis: auto;
+    margin: auto 0;
+  }
+  @media (max-width: 991px) {
+    .div-8 {
+      text-wrap: initial;
+    }
+  }
+  .div-9 {
+    background-color: var(--light, rgba(241, 241, 241, 0.44));
+    align-self: center;
+    display: flex;
+    margin-top: 26px;
+    width: 342px;
+    max-width: 100%;
+    flex-direction: column;
+    padding: 24px 20px 18px 14px;
+  }
+  .div-10 {
+    color: #000;
+    font-family: Inter, sans-serif;
+    font-size: 35px;
+    font-weight: 900;
+    align-self: start;
+    text-wrap: nowrap;
+  }
+  @media (max-width: 991px) {
+    .div-10 {
+      margin-left: 4px;
+      text-wrap: initial;
+    }
+  }
+  .div-11 {
+    color: rgba(0, 0, 0, 0.5);
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    align-self: start;
+    margin-top: 13px;
+    text-wrap: nowrap;
+  }
+  @media (max-width: 991px) {
+    .div-11 {
+      margin-left: 4px;
+      text-wrap: initial;
+    }
+  }
+  .div-12 {
+    align-self: start;
+    display: flex;
+    margin-top: 14px;
+    width: 138px;
+    max-width: 100%;
+    align-items: flex-start;
+    gap: 5px;
+  }
+  .div-13 {
+    color: rgba(0, 0, 0, 0.5);
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    align-self: center;
+    text-wrap: nowrap;
+    margin: auto 0;
+  }
+  @media (max-width: 991px) {
+    .div-13 {
+      text-wrap: initial;
+    }
+  }
+  .div-14 {
+    background-color: var(--light, rgba(241, 241, 241, 0.44));
+    align-self: center;
+    display: flex;
+    margin-top: 26px;
+    width: 342px;
+    max-width: 100%;
+    flex-grow: 1;
+    flex-direction: column;
+    padding: 26px 20px 18px 14px;
+  }
+  .div-15 {
+    color: #000;
+    font-family: Inter, sans-serif;
+    font-size: 35px;
+    font-weight: 900;
+    align-self: start;
+    text-wrap: nowrap;
+  }
+  @media (max-width: 991px) {
+    .div-15 {
+      margin-left: 4px;
+      text-wrap: initial;
+    }
+  }
+  .div-16 {
+    color: rgba(0, 0, 0, 0.5);
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    align-self: start;
+    margin-top: 14px;
+    text-wrap: nowrap;
+  }
+  @media (max-width: 991px) {
+    .div-16 {
+      margin-left: 4px;
+      text-wrap: initial;
+    }
+  }
+  .div-17 {
+    align-self: start;
+    display: flex;
+    margin-top: 14px;
+    width: 260px;
+    max-width: 100%;
+    align-items: flex-start;
+    gap: 5px;
+  }
+  .div-18 {
+    color: rgba(0, 0, 0, 0.5);
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    align-self: center;
+    text-wrap: nowrap;
+    margin: auto 0;
+  }
+  @media (max-width: 991px) {
+    .div-18 {
+      text-wrap: initial;
+    }
+  }
+  .img-2 {
+    aspect-ratio: 9.06;
+    object-fit: cover;
+    object-position: center;
+    width: 290px;
+    overflow: hidden;
+    align-self: center;
+    max-width: 100%;
+    margin: 195px 0 33px;
+  }
+  @media (max-width: 991px) {
+    .img-2 {
+      margin-top: 40px;
+    }
+  }
+
+  

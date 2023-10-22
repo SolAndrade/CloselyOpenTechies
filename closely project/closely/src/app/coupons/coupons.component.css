@@ -1,0 +1,105 @@
+  .div-4 {
+    background-color: var(--light, rgba(241, 241, 241, 0.44));
+    align-self: center;
+    display: flex;
+    margin-top: 27px;
+    width: 342px;
+    max-width: 100%;
+    align-items: flex-start;
+    gap: 3px;
+    padding: 0 16px 18px 22px;
+  }
+  .div-5 {
+    color: var(--yellow, #f8b223);
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin: auto 0;
+  }
+  .img {
+    aspect-ratio: 1;
+    object-fit: cover;
+    object-position: center;
+    width: 122px;
+    overflow: hidden;
+    align-self: stretch;
+    max-width: 100%;
+  }
+  .div-6 {
+    background-color: var(--light, rgba(241, 241, 241, 0.44));
+    align-self: center;
+    display: flex;
+    margin-top: 27px;
+    width: 342px;
+    max-width: 100%;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 0 16px 11px 22px;
+  }
+  .div-7 {
+    color: var(--yellow, #f8b223);
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    flex: 1;
+    margin: auto 0;
+  }
+  .img-2 {
+    aspect-ratio: 1;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    overflow: hidden;
+    flex: 1;
+  }
+  .img-3 {
+    aspect-ratio: 9.06;
+    object-fit: cover;
+    object-position: center;
+    width: 290px;
+    overflow: hidden;
+    align-self: center;
+    max-width: 100%;
+    margin: 359px 0 33px;
+  }
+  @media (max-width: 991px) {
+    .img-3 {
+      margin-top: 40px;
+    }
+  }
+
+  /* Define the CSS class for the larger text */
+.larger-text {
+    font-size: 50px;
+  }
+  
+  /* Define the CSS class for the smaller text */
+  .smaller-text {
+    font-size: 20px;
+  }
+  
+  /* Apply the CSS classes to the elements in your HTML */
+  .div-5 .larger-text {
+    font-family: Inter, sans-serif;
+    font-weight: 800;
+    color: rgba(248, 80, 70, 1);
+  }
+  
+  .div-5 .smaller-text {
+    font-family: Inter, sans-serif;
+    font-weight: 600;
+    color: rgba(248, 178, 35, 1);
+  }
+  
+  .div-7 .larger-text {
+    font-family: Inter, sans-serif;
+    font-weight: 800;
+    color: rgba(248, 80, 70, 1);
+  }
+  
+  .div-7 .smaller-text {
+    font-family: Inter, sans-serif;
+    font-weight: 600;
+    color: rgba(248, 178, 35, 1);
+  }
